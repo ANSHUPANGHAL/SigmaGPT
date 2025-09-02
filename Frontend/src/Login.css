@@ -1,0 +1,86 @@
+/* Full page black background */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;       /* Full height */
+  background-color: #111; /* Dark black background */
+  margin: 0;
+}
+
+/* White card box */
+.login-container {
+  max-width: 380px;
+  width: 100%;
+  background: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.4);
+}
+
+/* Buttons */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Login button */
+.login-container button[type="submit"] {
+  background: linear-gradient(90deg, #4f46e5, #3b82f6);
+  color: #fff;
+}
+
+.login-container button[type="submit"]:hover {
+  background: linear-gradient(90deg, #4338ca, #2563eb);
+}
+
+/* Extra text */
+.login-container p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
+
+.login-container a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
