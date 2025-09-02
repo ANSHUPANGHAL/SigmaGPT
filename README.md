@@ -45,6 +45,7 @@ PayPal API (future plans for payments)
 
 ---->>>> Future Roadmap
 1.Add subscription model with PayPal API
+
 2.Enhance chatbot with multi-model support (Gemini + OpenAI)
-3.Advanced search filters for chat history
-4.Deployment on AWS / Vercel
+
+3.Deployment on AWS / Vercel
